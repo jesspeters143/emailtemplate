@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Email Template</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- My CSS style -->
+ <link rel="stylesheet" href="email.css">
+</head>
+
+<body>
+    <div class="container-fluid h-100 my-container">
+        <div class="row h-100 my-row">
+            <div class="col-md-2 col-sm-4 my-col-one">
+                <div class="col welcome-col">
+                    <p class="welcome">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-image-fill" viewBox="0 0 16 16">
+                            <path d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2V3zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z"/>
+                          </svg>
+                        Welcome, Jessica!
+                    </p>
+                    <div class="collapse" id="navbarToggleExternalContent">
+                        <div class="bg-dark p-4">
+                          <h5 class="text-white h4">Collapsed content</h5>
+                          <span class="text-muted">Toggleable via the navbar brand.</span>
+                        </div>
+                      </div>
+                    <button class="compose-button" type="button">COMPOSE</button>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="#">Inbox (1)</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Tagged</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Important</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sent Mail</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Drafts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Trash</a>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 my-col-two">
+                    <form class="email-form">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="brown" class="bi bi-search"
+                            viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                        </svg>
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                        <input class="search-email" type="text"
+                            placeholder="Search for emails" aria-label="Search">
+                    </form>
+
+                    <div class="container">
+                        <div class="card card-one mb-3" style="max-width: 18rem;">
+                        <div class="card-body">
+                            <h1 class= "card-title linkedin">Linkedin</h1>
+                            <p class="card-one">You have a new connection request.</p>
+                        </div>
+                        </div>
+                        <div class="card card-two mb-3" style="max-width: 18rem;"">
+                            <div class="card-body">
+                                <h1 class="card-title michael">Michael Scott Daily Quotes</h1>
+                                <p class="card-two">I'm optimistic because everyday I get a little more
+                                    desp...
+                                </p>
+                            </div>
+                        </div>
+                    <div class="card text-black card-three mb-3" style="max-width: 18rem;">
+                        <div class="card-body card-highlight">
+                            <h1 class="card-title lamar">LaMar Software</h1>
+                            <p class="card-three">Learn how you can give us money by calling...</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+            <div class="col my-col-three">
+                        <p id="email-to-from" class="my-3 mx-auto small text-secondary">
+                            To: jesspeters@gmail.com
+                            <br>
+                            From: re-reply@theoffice.com
+                        </p>
+
+            <div class="row">
+                <div class="col">
+                    <h4 class="h4">Michael Scott Daily Quotes</h4>
+                </div>
+                
+                <div class="col-3 d-flex justify-content-end">
+                    <p class="text-nowrap"> 
+                        <div class="col">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
+                                    <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reply" viewBox="0 0 16 16">
+                                <path d="M6.598 5.013a.144.144 0 0 1 .202.134V6.3a.5.5 0 0 0 .5.5c.667 0 2.013.005 3.3.822.984.624 1.99 1.76 2.595 3.876-1.02-.983-2.185-1.516-3.205-1.799a8.74 8.74 0 0 0-1.921-.306 7.404 7.404 0 0 0-.798.008h-.013l-.005.001h-.001L7.3 9.9l-.05-.498a.5.5 0 0 0-.45.498v1.153c0 .108-.11.176-.202.134L2.614 8.254a.503.503 0 0 0-.042-.028.147.147 0 0 1 0-.252.499.499 0 0 0 .042-.028l3.984-2.933zM7.8 10.386c.068 0 .143.003.223.006.434.02 1.034.086 1.7.271 1.326.368 2.896 1.202 3.94 3.08a.5.5 0 0 0 .933-.305c-.464-3.71-1.886-5.662-3.46-6.66-1.245-.79-2.527-.942-3.336-.971v-.66a1.144 1.144 0 0 0-1.767-.96l-3.994 2.94a1.147 1.147 0 0 0 0 1.946l3.994 2.94a1.144 1.144 0 0 0 1.767-.96v-.667z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                                <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                            </svg>
+                                </p>
+                                </div>
+                        </div>
+                </div>
+                
+                <div class="mt-3">
+                    <p class="mb-2">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere distinctio voluptatem iusto aliquid dicta labore quos mollitia perferendis cumque illo eaque repudiandae consequatur exercitationem, maxime ipsam odit aut vel maiores.
+                    </p>
+                    <p class="mb-2">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius a, enim nemo fugit soluta inventore laboriosam accusamus maiores ullam quibusdam. Perferendis corrupti accusamus animi molestiae similique id facilis quae minima!
+                    </p>
+                    <p class="mb-2">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolorem ullam facilis vero perspiciatis molestias itaque, beatae maiores quis minus officiis, possimus quasi doloremque maxime laudantium, minima incidunt deleniti facere.
+                    </p>
+                    <p class="mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem officiis corrupti mollitia modi ipsum provident iste delectus animi aut repellat quasi earum esse, libero inventore facere nisi tempore nihil porro!
+                    </p>
+                    <p class="mb-2">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique excepturi alias tempora quisquam obcaecati, magnam dolore deleniti. Reprehenderit, vero beatae. Molestiae dolorum explicabo esse suscipit eligendi corporis quod porro voluptatem.
+                    </p>
+                  </div>
+
+                        <div contenteditable="true" class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                            <label for="floatingTextarea2" class="position-right">
+                            <div id="reply-bar">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-paperclip" viewBox="0 0 16 16">
+                                <path d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0V3z"/>
+                                </svg>
+                              <button class="reply-button d-flex justify-content-right" type="button">REPLY</button>
+                            </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
